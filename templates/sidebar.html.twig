@@ -1,55 +1,36 @@
-<div class="d-flex flex-column p-3 text-white bg-dark h-100" style="width: 280px;">
+<div id="sidebar" class="d-flex flex-column p-3 text-white bg-dark h-100" style="width: 280px;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"/>
-        </svg>
         <span class="fs-4">Sidebar</span>
     </a>
+
     <hr>
+
     <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="#home"/>
-                </svg>
-                Home
+            <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home">
+                <i class="fas fa-home"></i>
+                <span>Accueil</span>
             </a>
         </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="#speedometer2"/>
-                </svg>
-                Dashboard
+        <li class="nav-item mt-2">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#profile">
+                <i class="fas fa-user"></i>
+                <span>Profile</span>
             </a>
         </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="#table"/>
-                </svg>
-                Orders
+        <li class="nav-item mt-2">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#messages">
+                <i class="fas fa-envelope"></i>
+                <span>Messagerie</span>
             </a>
         </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="#grid"/>
-                </svg>
-                Products
-            </a>
-        </li>
-        <li>
-            <a href="#" class="nav-link text-white">
-                <svg class="bi me-2" width="16" height="16">
-                    <use xlink:href="#people-circle"/>
-                </svg>
-                Customers
+        <li class="nav-item mt-2">
+            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#settings">
+                <i class="fas fa-th-large"></i>
+                <span>Compte</span>
             </a>
         </li>
     </ul>
+
     <hr>
 </div>
-
-<div class="b-example-divider"></div>
-
