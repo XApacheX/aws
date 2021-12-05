@@ -9,6 +9,7 @@ body{
 #sidebar .list-group-item{
     background-color: transparent!important;
     color: white;
+    border: none;
 }
 
 #sidebar .list-group-item:hover{
