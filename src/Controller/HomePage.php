@@ -7,13 +7,12 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HomePage
 {
-//    /**
-//     * @Route("/", name="home", methods={"GET"})
-//     */
-//    public function index(){
-//        return new Response(
-//            '<html><body>SALUT</html>'
-//        );
-//    }
-
+    /**
+     * @Route("/", name="home", methods={"GET"})
+     */
+    public function index(){
+        return new Response(
+            '<html><body>SALUT</html>'
+        );
+    }
 }
